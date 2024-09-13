@@ -1,0 +1,13 @@
+:root {
+    /* Text */
+    --logo-fontsize: 24px;
+    --main-header-fontsize: 48px;
+    --secondary-text-fontsize: 18px;
+
+    /* Color */
+    --dark-background: #1f2937;
+    --button-color: #3663f6;
+    --quote-section-color: #e5e7eb;
+    --logo-color: #f9faf8;
+
+}
