@@ -1,3 +1,4 @@
+/* General  */
 :root {
     /* Text */
     --logo-fontsize: 24px;
@@ -7,7 +8,98 @@
     /* Color */
     --dark-background: #1f2937;
     --button-color: #3663f6;
-    --quote-section-color: #e5e7eb;
+    --secondary-text-color: #e5e7eb;
     --logo-color: #f9faf8;
 
+    /* containers width */
+
+    --container-max-width: 960px;
+
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.hero-area,
+.random-info-container,
+.quote-container,
+.footer-action-call {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+}
+
+/* Hero area */
+.hero-container {
+    background-color: var(--dark-background);
+}
+
+.hero-area {
+    color: var(--secondary-text-color);
+    padding: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+
+}
+
+.hero-area-info {
+    display: flex;
+    padding: 100px 0;
+    gap: 16px;
+}
+
+.logo {
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.info h1 {
+    font-size: var(--main-header-fontsize);
+    color: var(--logo-color);
+}
+
+.sign-up-button {
+    background-color: var(--button-color);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.sign-up-button:hover {
+    cursor: pointer;
+}
+
+a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+/* Review  */
+
+/* Quote */
+
+
+/* Footer */
