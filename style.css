@@ -26,7 +26,7 @@ body {
 }
 
 .hero-area,
-.random-info-container,
+.reviews-container,
 .quote-container,
 .footer-action-call {
     max-width: var(--container-max-width);
@@ -99,7 +99,30 @@ a:hover {
 
 /* Review  */
 
+.reviews-title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.reviews-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    color: var(--dark-background);
+    font-weight: 900;
+}
+
+.reviews-info img {
+    border-radius: 5px;
+    border: var(--button-color) solid 2px;
+}
+
 /* Quote */
 
+.quote-container {
+    background-color: var(--secondary-text-color);
+
+}
 
 /* Footer */
